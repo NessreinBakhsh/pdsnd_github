@@ -5,7 +5,7 @@ December 3, 2019 at 3:04 PM
 bikeshare.py
 
 ### Description
-In this project we analyse bikeshare data for US 
+In this project we analyse bikeshare data for US. 
 
 ### Files used
 chicago.csv
@@ -15,3 +15,5 @@ washington.csv
 ### Credits
 https://stackoverflow.com
 
+### Notes
+I have used pandas and Time in my project. 
