@@ -15,6 +15,7 @@ def get_filters():
         (str) month - name of the month to filter by, or "all" to apply no month filter
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
+    print('-----BIKESHARE-----')
     print('Hello! Let\'s explore some US bikeshare data!')
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     
@@ -210,7 +211,7 @@ def raw(df):
     start = 0
     end = 5
 
-    show = input("\nDo you love to see the raw data? Enter yes or no\n").lower()
+    show = input("\nDo you want to see raw data? Enter yes or no\n").lower()
 
     if show == 'yes':
         while end <= df.shape[0] - 1:
@@ -219,7 +220,7 @@ def raw(df):
             start += 5
             end += 5
 
-            end_show = input("Do you wish to continue? Enter yes or no \n").lower()
+            end_show = input("Would you like to continue? Enter yes or no \n").lower()
             if end_show == 'no':
                 break
     
